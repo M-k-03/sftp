@@ -12,7 +12,7 @@ jobs:
       - run:
           name: Build with Maven Wrapper
           command: |
-            ./mvnw clean install
+            mvn clean install
 
 workflows:
   version: 2
