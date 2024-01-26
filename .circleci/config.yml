@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:8-jdk  # Use an image with Java 8
+      - image: maven:3.6.3-jdk-11
     working_directory: ~/project
 
     steps:
